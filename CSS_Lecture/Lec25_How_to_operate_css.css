@@ -1,0 +1,26 @@
+body{
+  /* background-color와 background는 기능이 똑같다. */
+  /* background 값으로 url 또는 배경색이 올 수 있다.*/
+  background: url(https://media-cdn.tripadvisor.com/media/photo-s/0f/05/55/c8/beach-area.jpg);
+  background-repeat: no-repeat; /* no-repeat, repeat*/
+
+}
+
+
+div{
+  background: red;
+  border-color: orange;
+  border-width: 10px;  /*thick or thin or 10px*/
+  border-style: double; /*dotted or double or etc..*/
+}
+
+
+p{
+  color: blue;
+}
+
+
+span{
+  background: white;
+  color: black;
+}

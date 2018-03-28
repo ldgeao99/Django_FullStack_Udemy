@@ -1,0 +1,41 @@
+
+/* 모든 div요소에 적용하는 것*/
+div{
+  color: red;
+}
+
+/* 모든 요소에 적용하는 것*/
+*{
+  color: black;
+}
+
+ /*해당 class 이름을 가지는 요소 지정시 '.'*/
+.firstDiv{
+  color: blue;
+}
+
+.secondDiv{
+  color: red;
+}
+
+/*해당 id 이름을 가지는 요소 지정시 '#'*/
+#singleout{
+  color: green;
+  text-decoration: line-through;
+}
+
+ /*h3와 바로 맞닿아 있는 ul태그를 선택하는 것임*/
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+/* li태그안에있는 a태그를 선택하는 것임 */
+li a{
+  color: red;
+}
+
+/* li태그안에있는 a태그를 선택하는 것이고 추가적으로 해당 href를 가지는 줄만 선택하는 것임 */
+li a[href="https://www.npr.org"]{
+  color: blue;
+  border: 5px solid orange;
+}

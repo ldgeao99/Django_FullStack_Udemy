@@ -1,0 +1,25 @@
+/* selected tag{
+  property: value;
+
+} */
+
+
+h1{
+  color: pink;
+}
+
+
+li{
+  color: rgb(249, 0, 0);
+}
+
+p{
+  color: #0039F9;
+}
+
+
+h4{
+  color: rgba(255, 97, 0, 1);
+  /*마지막 숫자가 0이면 글자가 하얀색으로 되어 드래그해야 보이고*/
+  /*마지막 숫자가 1이면 그냥 rgb랑 같음*/
+}

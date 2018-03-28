@@ -1,0 +1,14 @@
+li{
+  color: red;
+}
+
+.topitems{
+  color: blue;
+}
+
+#two{
+  border: 3px solid black;
+}
+
+
+/* 모든 li에 대해 위의 속성이 적용되지만, 지정자가 따로 붙어있는 것들엔 li태그라도 따로 지정해준 속성이 부여된다. */

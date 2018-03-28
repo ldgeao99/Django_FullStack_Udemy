@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Feedback</title>
+  </head>
+  <body>
+    <h1>Hotel Feedback From</h1>
+
+    <form method="get">
+      <h3>Are you from inside th US? OR Outside the US?</h3>
+
+
+      <!--name이 같으면 양자택일만 가능해진다.-->
+      <!--name에 아무것도 안들어가 있으면 동시에 둘다 선택이 가능해진다.-->
+
+      <label for="in_usa">Inside: </label>
+      <input id="in_usa" type="radio" name="loc" value="inside">
+
+      <label for="out_usa">Outside: </label>
+      <input id="out_usa" type="radio" name="loc" value="outside">
+
+
+      <h2>How was your service?</h2>
+
+      <select name="stars">
+        <option value="Great">3</option>
+        <option value="Okay">2</option>
+        <option value="Bad">1</option>
+      </select>
+
+      <h2>Any other feedback?</h2>
+
+      <textarea name="mytext" rows="8" cols="80"></textarea>
+
+
+      <input type="submit" name="" value="SUBMIT">
+
+      <!--submit버튼 클릭시 loc=inside&stars=Great 이런식으로 값이 들어가게 된다.-->
+
+
+
+    </form>
+  </body>
+</html>
