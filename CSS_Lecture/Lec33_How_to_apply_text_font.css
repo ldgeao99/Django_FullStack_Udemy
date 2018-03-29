@@ -1,0 +1,36 @@
+h1{
+  font-family: cursive;
+  text-align: center;
+  text-decoration: line-through;
+}
+
+/* font-family는 글자의 폰트를 지정하며
+   cursive or monospace or "Arial" 와 같은 형태로 폰트를 줄 수 있다.; */
+
+
+p{
+  font-family: monospace;
+}
+
+body{
+  font-size: 1em;
+}
+
+/*
+font-size
+1em = 16px
+2em = 32px
+*/
+
+p{
+  font-style: italic;
+  font-weight: bold;  /*글자 두께*/
+}
+
+
+
+/* html파일에서 링크 걸어준 폰트를  적용하는 예시*/
+#two{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+}

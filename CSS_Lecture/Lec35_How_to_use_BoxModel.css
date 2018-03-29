@@ -1,0 +1,17 @@
+#top{
+  border: 4px solid yellow;
+  width : 25%;   /*전체 넓이의 25%를 뜻함.*/
+  text-align: center;
+}
+
+#center{
+  border: 4px solid blue;
+  margin: 10px 20px 100px 400px; /* top right, bottom, left 순서로 명시.*/
+}
+
+#bottom{
+  border: 4px solid red;
+  width: 50%;
+  padding: 200px;
+  margin: auto;
+}
